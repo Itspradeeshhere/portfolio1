@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pradeesh Portfolio</title>
+  <!-- meta tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Open+Sans:wght@700&family=Poppins:wght@400;600&family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="website icon" type="png" href="images/pradeesh_profile_view.png">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- css link -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar container sticky-top bg-body-tertiary">
+    <!-- <a href="#" class="logo"></a> -->
+    <div style="display: flex; float: right;">
+      <h1 class="top-1" style="color: #ff4c68; font-family: 'Satisfy', cursive; font-size: 2rem; position: relative; left: 7px; top: 3px;">Pradeesh </h1>
+      <img title="Switch Theme" src="images/sun.png" id="icon">
+    </div>
+
+    <input type="checkbox" id="toggler" style="text-align: left;" />
+    <label for="toggler"><i class="ri-menu-line"></i></label>
+    <div class="menu">
+      <ul class="list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function() {
+      document.body.classList.toggle("dark-theme");
+      if (document.body.classList.contains("dark-theme")) {
+        icon.src = "images/moon.png";
+      } else {
+        icon.src = "images/sun.png";
+      }
+    }
+  </script>
+
+  <section>
+    <div class="row top">
+      <div class="tech-1 col-lg-6 col-md-12 col-sm-12">
+        <h1 class="top-1">Hi! I'm <span style="color: #ff4c68; font-family: 'Satisfy', cursive; font-size: 2.2rem; position: relative; bottom: 2px; left: 3px;">Pradeesh .</span></h1>
+        <h1 class="top-2">I'm a <span class="auto-input" style="color:#ff4c68; font-weight: 600;"></span> </h1>
+      </div>
+      <div class="tech-2 col-lg-6 col-md-12 col-sm-12"  data-aos="zoom-in" data-aos-duration="3000">
+        <img class="img1" id="img1" src="images/floating.png">
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="row abt">
+      <div class="col-lg-5 col-md-12 col-sm-12" data-aos="zoom-in" data-aos-duration="3000">
+        <img class="img2" src="images/pradeesh_profile_view.png">
+      </div>
+      <div class="abt-2 col-lg-7 col-md-12 col-sm-12">
+        <div class="waviy" data-aos="zoom-in" data-aos-duration="3000">
+          <h2>
+            <span style="--i:1">A</span>
+            <span style="--i:2">b</span>
+            <span style="--i:3">o</span>
+            <span style="--i:4">u</span>
+            <span style="--i:5">t</span>
+          </h2>
+        </div>
+        <h5 data-aos="zoom-in" data-aos-duration="1500">Hey there! I am Pradeesh P, Fourth year Computer Science and Engineering student at <a href="https://www.kct.ac.in/"> Kumaraguru College of Technology<img style="width:22px;" src="images/url.png">.</a> I am a web application developer and likes designing very much. I really likes <a href="https://www.python.org/">Python<img style="width:22px;" src="images/url.png"></a> and 'am currently learning <a href="https://reactjs.org/">React<img style="width:22px;" src="images/url.png">.</a> I have a passion for learning new things and currently working on the project QuizOut.</h5>
+        <p data-aos="zoom-in-up" data-aos-duration="1500"><a class="download-btn" href="images/Pradeesh_Resume.pdf" download title="Download my Resume">Resume<img src="images/download.png" data-aos="zoom-in-up" data-aos-duration="1500" style="width: 20px; position: relative; left: 8px; bottom: 1.5px;"></a></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row tech">
+      <div class="tech-1 col-lg-5 col-md-12 col-sm-12" data-aos="zoom-in" data-aos-duration="3000">
+        <div class="waviy">
+          <h2>
+            <span style="--i:1">S</span>
+            <span style="--i:2">k</span>
+            <span style="--i:3">i</span>
+            <span style="--i:4">l</span>
+            <span style="--i:5">l</span>
+            <span style="--i:6">s</span>
+          </h2>
+        </div>
+      </div>
+      <div class="tech-2 col-lg-7 col-md-12 col-sm-12" data-aos="zoom-in" data-aos-duration="3000">
+        <img class="img3" src="images/landing.png">
+      </div>
+    </div>
+
+    <div class="row pro" data-aos="zoom-in-up" data-aos-duration="1000">
+      <div class="prog-layer">
+        <div class="prog col-lg-3 col-md-6 col-sm-12">
+          <img src="images/python-colored.svg" data-aos="zoom-in-up" data-aos-duration="1500" class="pro-img">
+          <h3 class="pro-title" data-aos="zoom-in-up" data-aos-duration="1500"><a href="https://www.python.org/">Python<img class="pro-url-img" src="images/url.png"></a></h3>
+          <p class="pro-text" data-aos="zoom-in-up" data-aos-duration="1500">I like Python very much, have a very good knowledge and learned with some advanced topics.</p>
+        </div>
+      </div>
+      <div class="prog-layer" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="prog col-lg-3 col-md-6 col-sm-12">
+          <img src="images/c-colored.svg" data-aos="zoom-in-up" data-aos-duration="1500" class="pro-img">
+          <h3 class="pro-title" data-aos="zoom-in-up" data-aos-duration="1500"><a href="https://www.learn-c.org/">C<img class="pro-url-img" src="images/url.png"></a></h3>
+          <p class="pro-text" data-aos="zoom-in-up" data-aos-duration="1500">I have a very good knowledge with C and uses it for Data structures and problem solving.</p>
+        </div>
+      </div>
+      <div class="prog-layer" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="prog col-lg-3 col-md-6 col-sm-12">
+          <img src="images/java-colored.svg" data-aos="zoom-in-up" data-aos-duration="1500" class="pro-img">
+          <h3 class="pro-title" data-aos="zoom-in-up" data-aos-duration="1500"><a href="https://www.java.com/en/">Java<img class="pro-url-img" src="images/url.png"></a></h3>
+          <p class="pro-text" data-aos="zoom-in-up" data-aos-duration="1500">I love to use Java for OOP and used it for some of my projects.</p>
+        </div>
+      </div>
+      <div class="prog-layer" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="prog col-lg-3 col-md-6 col-sm-12">
+          <img src="images/html5-colored.svg" data-aos="zoom-in-up" data-aos-duration="1500" class="pro-img">
+          <h3 class="pro-title" data-aos="zoom-in-up" data-aos-duration="1500"><a href="https://html.com/">HTML<img class="pro-url-img" src="images/url.png"></a></h3>
+          <p class="pro-text" data-aos="zoom-in-up" data-aos-duration="1500">I know HTML5 very well, but recently I replaced it with EJS.</p>
+        </div>
+      </div>
+      <div class="prog-layer" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="prog col-lg-3 col-md-6 col-sm-12">
+          <img src="images/css3-colored.svg" data-aos="zoom-in-up" data-aos-duration="1500" class="pro-img">
+          <h3 class="pro-title" data-aos="zoom-in-up" data-aos-duration="1500"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS<img class="pro-url-img" src="images/url.png"></a></h3>
+          <p class="pro-text" data-aos="zoom-in-up" data-aos-duration="1500">I uses it for designing my web applications, but sometimes I use Bootstrap for less complexity.</p>
+        </div>
+      </div>
+      <div class="prog-layer" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="prog col-lg-3 col-md-6 col-sm-12">
+          <img src="images/javascript-colored.svg" data-aos="zoom-in-up" data-aos-duration="1500" class="pro-img">
+          <h3 class="pro-title" data-aos="zoom-in-up" data-aos-duration="1500"><a href="https://www.javascript.com/">JavaScript<img class="pro-url-img" src="images/url.png"></a></h3>
+          <p class="pro-text" data-aos="zoom-in-up" data-aos-duration="1500">I have been using it for all of my web projects both in frontend and backend.</p>
+        </div>
+      </div>
+      <div class="prog-layer" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="prog col-lg-3 col-md-6 col-sm-12">
+          <img src="images/react.svg" data-aos="zoom-in-up" data-aos-duration="1500" class="pro-img">
+          <h3 class="pro-title" data-aos="zoom-in-up" data-aos-duration="1500"><a href="https://react.dev/">React<img class="pro-url-img" src="images/url.png"></a></h3>
+          <p class="pro-text" data-aos="zoom-in-up" data-aos-duration="1500">I use React as my main frontend framework for JavaScript. I used it in some of my projects.</p>
+        </div>
+      </div>
+      <div class="prog-layer" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="prog col-lg-3 col-md-6 col-sm-12">
+          <img src="images/nodejs-colored.svg" data-aos="zoom-in-up" data-aos-duration="1500" class="pro-img">
+          <h3 class="pro-title" data-aos="zoom-in-up" data-aos-duration="1500"><a href="https://nodejs.org/en/">NodeJS<img class="pro-url-img" src="images/url.png"></a></h3>
+          <p class="pro-text" data-aos="zoom-in-up" data-aos-duration="1500">I use Node.js for backend development. I use it with Express.js to build servers.</p>
+        </div>
+      </div>
+      <div class="prog-layer" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="prog col-lg-3 col-md-6 col-sm-12">
+          <img src="images/motoko.svg" data-aos="zoom-in-up" data-aos-duration="1500" style="width: 220px; margin-top: 30px; margin-bottom:9px;" class="pro-img">
+          <h3 class="pro-title" data-aos="zoom-in-up" data-aos-duration="1500"><a href="https://internetcomputer.org/">Motoko<img class="pro-url-img" src="images/url.png"></a></h3>
+          <p class="pro-text" data-aos="zoom-in-up" data-aos-duration="1500">I really like Motoko and use it to build the Internet Computer(ICP) Blockchain Network.</p>
+        </div>
+      </div>
+      <div class="prog-layer" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="prog col-lg-3 col-md-6 col-sm-12">
+          <img src="images/mongodb-colored.svg" data-aos="zoom-in-up" data-aos-duration="1500" class="pro-img">
+          <h3 class="pro-title" data-aos="zoom-in-up" data-aos-duration="1500"><a href="https://www.mongodb.com/">MongoDB<img class="pro-url-img" src="images/url.png"></a></h3>
+          <p class="pro-text" data-aos="zoom-in-up" data-aos-duration="1500">I have been using it for storing my Database for all of my projects with Atlas.</p>
+        </div>
+      </div>
+      <div class="prog-layer" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="prog col-lg-3 col-md-6 col-sm-12">
+          <img src="images/mysql-colored.svg" data-aos="zoom-in-up" data-aos-duration="1500" class="pro-img">
+          <h3 class="pro-title" data-aos="zoom-in-up" data-aos-duration="1500"><a href="https://www.mysql.com/">MySQL<img class="pro-url-img" src="images/url.png"></a></h3>
+          <p class="pro-text" data-aos="zoom-in-up" data-aos-duration="1500">I know MySQL very well and is very useful for storing data locally.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="row projects">
+      <div class="project-1 col-lg-6 col-md-12 col-sm-12" data-aos="zoom-in" data-aos-duration="3000">
+        <img class="img3" src="images/robot.png">
+      </div>
+      <div class="project-2 col-lg-5 col-md-12 col-sm-12" data-aos="zoom-in" data-aos-duration="3000">
+        <div class="waviy">
+          <h2>
+            <span style="--i:1">P</span>
+            <span style="--i:2">r</span>
+            <span style="--i:3">o</span>
+            <span style="--i:4">j</span>
+            <span style="--i:5">e</span>
+            <span style="--i:6">c</span>
+            <span style="--i:7">t</span>
+            <span style="--i:8">s</span>
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row project-detail">
+
+      <div class="project col-lg-3 col-md-6 col-sm-12">
+        <img src="images/blogz_logo.png" data-aos="zoom-in-up" data-aos-duration="1500" class="proj-img">
+        <div class="project-layer">
+          <h3 class="proj-title" data-aos="zoom-in-up" data-aos-duration="1500">Blogz</h3>
+          <p class="proj-text" data-aos="zoom-in-up" data-aos-duration="1500">This is a web application to publish your blogs and read others blogs.</p>
+          <a href="https://github.com/"><img src="images/github.png" data-aos="zoom-in-up" data-aos-duration="1500" style="width: 30px; margin-right: 45px; margin-top: 4px;"></a>
+          <a href="https://onrender.com/"><img src="images/share.png" data-aos="zoom-in-up" data-aos-duration="1500" style="width: 30px; margin-top: 4px;"></a>
+        </div>
+      </div>
+
+      <div class="project col-lg-3 col-md-6 col-sm-12">
+        <img src="images/class_logo_wo_bg.png" data-aos="zoom-in-up" data-aos-duration="1500" class="proj-img">
+        <div class="project-layer">
+          <h3 class="proj-title" data-aos="zoom-in-up" data-aos-duration="1500">Class</h3>
+          <p class="proj-text" data-aos="zoom-in-up" data-aos-duration="1500">It is my favourite project, very useful to schedule timetable, record attendance and tasks.</p>
+          <a href="https://github.com/"><img src="images/github.png" data-aos="zoom-in-up" data-aos-duration="1500" style="width: 30px; margin-right: 45px; margin-top: 4px;"></a>
+          <a href="https://class-umi-apps.onrender.com/"><img src="images/share.png" data-aos="zoom-in-up" data-aos-duration="1500" style="width: 30px; margin-top: 4px;"></a> 
+        </div>
+      </div>
+
+      <div class="project col-lg-3 col-md-6 col-sm-12">
+        <img src="images/scomode_logo.jpeg" style="border-radius: 15px;" data-aos="zoom-in-up" data-aos-duration="1500" class="proj-img">
+        <div class="project-layer">
+          <h3 class="proj-title" data-aos="zoom-in-up" data-aos-duration="1500">Scomode</h3>
+          <p class="proj-text" data-aos="zoom-in-up" data-aos-duration="1500">I collaborated with Gowtham on Scomode to develop a website for their industry.</p>
+          <a href="https://github.com/"><img src="images/github.png" data-aos="zoom-in-up" data-aos-duration="1500" style="width: 30px; margin-right: 45px; margin-top: 4px;"></a>
+          <a href="https://scomodetech.com/"><img src="images/share.png" data-aos="zoom-in-up" data-aos-duration="1500" style="width: 30px; margin-top: 4px;"></a>
+        </div>
+      </div>
+
+      <div class="project col-lg-3 col-md-6 col-sm-12">
+        <img src="images/quizOut_logo.png" data-aos="zoom-in-up" data-aos-duration="1500" class="proj-img">
+        <div class="project-layer">
+          <h3 class="proj-title" data-aos="zoom-in-up" data-aos-duration="1500">QuizOut</h3>
+          <p class="proj-text" data-aos="zoom-in-up" data-aos-duration="1500">It is to check your knowledge on various basic topics and you can also add custom questions.</p>
+          <a href=""><img src="images/github.png" data-aos="zoom-in-up" data-aos-duration="1500" style="width: 30px; margin-right: 45px; margin-top: 4px;"></a>
+          <a href=""><img src="images/share.png" data-aos="zoom-in-up" data-aos-duration="1500" style="width: 30px; margin-top: 4px;"></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="row tech">
+      <div class="tech-1 col-lg-5 col-md-12 col-sm-12" data-aos="zoom-in" data-aos-duration="3000">
+        <div class="waviy">
+          <h2>
+            <span style="--i:1">C</span>
+            <span style="--i:2">o</span>
+            <span style="--i:3">n</span>
+            <span style="--i:4">t</span>
+            <span style="--i:5">a</span>
+            <span style="--i:6">c</span>
+            <span style="--i:7">t</span>
+            <span style="--i:8"> </span>
+            <span style="--i:9">M</span>
+            <span style="--i:10">e</span>
+          </h2>
+        </div>
+      </div>
+      <div class="tech-2 col-lg-7 col-md-12 col-sm-12" data-aos="zoom-in" data-aos-duration="3000">
+        <img class="img3" src="images/hologram.png">
+      </div>
+    </div>
+
+    <div class="con">
+      <p class="pro-text" data-aos="zoom-in" data-aos-duration="1500">Feel free to ping me through the mentioned social media platform links below. Can contact my email for business inquires, or other important issues.</p>
+      <a href="https://www.linkedin.com/in/pradeesh-p-76990a292"><img src="images/linkedin.svg"  data-aos="zoom-in" data-aos-duration="3000"class="con-img" style="width: 40px; margin-top: 4px;"></a>
+      <a href="https://twitter.com/"><img src="images/twitter.svg" data-aos="zoom-in" data-aos-duration="3000" class="con-img" style="width: 40px; margin-top: 4px;"></a>
+      <a href="https://www.instagram.com/itspradeeshhere/"><img src="images/instagram.svg" data-aos="zoom-in" data-aos-duration="3000" class="con-img" style="width: 40px; margin-top: 4px;"></a>
+      <a href="https://www.facebook.com/"><img src="images/facebook.svg" data-aos="zoom-in" data-aos-duration="3000" class="con-img" style="width: 40px; margin-top: 4px;"></a>
+      <a href="https://github.com/"><img src="images/github.svg" data-aos="zoom-in" data-aos-duration="3000" class="con-img" style="width: 40px; margin-top: 4px;"></a>
+      <a href="https://discord.com/users/"><img src="images/discord.svg" data-aos="zoom-in" data-aos-duration="3000" class="con-img" style="width: 40px; margin-top: 4px;"></a>
+
+      <p data-aos="zoom-in-up" data-aos-duration="1500"><a class="contact-btn" href="mailto:pradeeshraj.2003@gmail.com">CONTACT ME<img src="images/gmail.png" data-aos="zoom-in-up" data-aos-duration="1500" style="width: 20px; position: relative; left: 8px; bottom: 1.5px;"></a></p>
+    </div>
+
+    <footer>
+      <div class="details">
+        <p class="dett">©2024 umi apps</p>
+        <p class="dett">Made with <img src="images/heart.png" style="width: 20px;"> by <span class="name-hover">Pradeesh</span></p>
+      </div>
+    </footer>
+  </section>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to Top"><img src="images/arrow.png" style="width: 20px;"></button>
+
+  <script type="text/javascript">
+    let mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script type="text/javascript">
+    var typed = new Typed(".auto-input", {
+      strings: ["Student", "Web Designer", "Full-stack Developer"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+    });
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>
